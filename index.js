@@ -28,7 +28,7 @@ function createToDoEl(object) {
             <form class="form-checkbox">
                 <input class="checkbox" type="checkbox">
             </form>
-            <img src="/files/trashIcon.svg" alt="icon">
+            <img src="/JS-CSS-HTML-ToDoList-Challange/files/trashIcon.svg" alt="icon">
         </div>
     `;
 
