@@ -3,8 +3,10 @@ const inputEl = document.querySelector('.input');
 const mainConEl = document.querySelector('.main-container');
 const list = JSON.parse(localStorage.getItem('list'));
 
-for (el of list) {
-    createToDoEl(el);
+if (list.length > 0) {
+    for (el of list) {
+        createToDoEl(el);
+    }    
 }
 
 
