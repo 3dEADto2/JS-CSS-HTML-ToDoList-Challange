@@ -3,7 +3,7 @@ const inputEl = document.querySelector('.input');
 const mainConEl = document.querySelector('.main-container');
 const list = JSON.parse(localStorage.getItem('list'));
 
-if (list.length > 0) {
+if (list !== null) {
     for (el of list) {
         createToDoEl(el);
     }    
